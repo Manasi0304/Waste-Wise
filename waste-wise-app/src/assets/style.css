@@ -1,0 +1,152 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 92vh;
+}
+
+/* Header Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: url('../assets/images/bg.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 92vh;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.enquire-btn {
+    padding: 10px 30px;
+    background-color: #ffcc00;
+    color: #003300;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Services Section */
+.services h2, .we-treat h2, .profile h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 23%;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.service p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.service button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #003300;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* We Treat Section */
+.we-treat {
+    background-color: lemonchiffon;
+    height: 400px !important;
+}
+
+.we-treat h2 {
+    margin-top: 20px !important;
+}
+
+/* Footer */
+footer {
+    background-color: #003300;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
